@@ -37,7 +37,7 @@ The project implements:
 - Model evaluation and metrics analysis
 
 ## Dependencies 🛠️
-ˋˋˋpython
+```python
 python = "^3.11"
 numpy = "^2.3.3"
 pandas = "^2.3.2"
@@ -45,7 +45,7 @@ matplotlib = "^3.10.6"
 seaborn = "^0.13.2"
 scikit-learn = "^1.7.2"
 scipy = "^1.16.2"
-ˋˋˋ
+```
 
 ## Installation & Setup ⚙️
 ```bash
