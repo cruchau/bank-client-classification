@@ -44,23 +44,30 @@ pandas = "^2.3.2"
 matplotlib = "^3.10.6"
 seaborn = "^0.13.2"
 scikit-learn = "^1.7.2"
-scipy = "^1.16.2" ```
+scipy = "^1.16.2"
 
-## Installation ⚙️
-``` python
+## Installation & Setup ⚙️
+```bash
 # Clone the repository
 git clone https://github.com/cruchau/bank-client-classification.git
 
 # Navigate to project directory
-cd bank-client-classification ```
+cd bank-client-classification
 
-## Usage 🚀
-``` python
 # Install dependencies using Poetry
 poetry install
 
 # Activate virtual environment
 poetry shell
 
+## Usage Instructions 🚀
+```bash
 # Run the main analysis script
-python main.py ```
+python main.py
+
+# To generate predictions for new data
+python predict.py --input new_data.csv --output predictions.csv
+
+# To retrain the model
+python train.py --data training_data.csv --model rf
+
