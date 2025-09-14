@@ -37,7 +37,6 @@ The project implements:
 - Model evaluation and metrics analysis
 
 ## Dependencies 🛠️
-```python
 python = "^3.11"
 numpy = "^2.3.3"
 pandas = "^2.3.2"
@@ -47,7 +46,6 @@ scikit-learn = "^1.7.2"
 scipy = "^1.16.2"
 
 ## Installation & Setup ⚙️
-```bash
 # Clone the repository
 git clone https://github.com/cruchau/bank-client-classification.git
 
@@ -61,7 +59,6 @@ poetry install
 poetry shell
 
 ## Usage Instructions 🚀
-```bash
 # Run the main analysis script
 python main.py
 
@@ -71,3 +68,12 @@ python predict.py --input new_data.csv --output predictions.csv
 # To retrain the model
 python train.py --data training_data.csv --model rf
 
+## License 📝
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing 🤝
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact 📧
+Your Name - [@yourusername](https://twitter.com/yourusername)
+Project Link: [https://github.com/yourusername/bank-client-classification](https://github.com/yourusername/bank-client-classification)
