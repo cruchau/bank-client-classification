@@ -44,16 +44,18 @@ pandas = "^2.3.2"
 matplotlib = "^3.10.6"
 seaborn = "^0.13.2"
 scikit-learn = "^1.7.2"
-scipy = "^1.16.2"
+scipy = "^1.16.2" ```
 
 ## Installation ⚙️
+``` python
 # Clone the repository
 git clone https://github.com/cruchau/bank-client-classification.git
 
 # Navigate to project directory
-cd bank-client-classification
+cd bank-client-classification ```
 
 ## Usage 🚀
+``` python
 # Install dependencies using Poetry
 poetry install
 
@@ -61,4 +63,4 @@ poetry install
 poetry shell
 
 # Run the main analysis script
-python main.py
+python main.py ```
